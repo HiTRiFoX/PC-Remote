@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "tag": "HI!",
+      "patterns": [ "Hi", "Hey", "I need your help", "OK Google", "What's up?" ],
+      "response": [ "How can I help you?", "I am listening", "What you want?" ]
+    },
+    {
+      "tag": "Music",
+      "patterns": [ "Can you play some music?", "Can you play music?", "Play some music", "Play music", "I want you to play music", "I want you to play some music" ],
+      "response": [ "" ]
+    },
+    {
+      "tag": "acceptence",
+      "patterns": [ "" ],
+      "response": [ "Ofcourse", "Sure", "OK", "Fine", "Alright" ]
+    }
+  ]
+}
